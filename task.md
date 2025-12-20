@@ -1,0 +1,33 @@
+# Tasks
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Initialize Maven project <!-- id: 1 -->
+    - [x] Add dependencies (Playwright, TestRail, Allure, TestNG/JUnit, SLF4J/Logback) <!-- id: 2 -->
+    - [x] Create directory structure <!-- id: 3 -->
+- [x] Base Framework Core <!-- id: 4 -->
+    - [x] Implement Configuration Manager (Properties reader) <!-- id: 5 -->
+    - [x] Implement Driver Factory (Browser setup) <!-- id: 6 -->
+    - [x] Implement Base Page (Common actions, locators, waits) <!-- id: 7 -->
+    - [x] Implement Base Test (Setup/Teardown, Listeners) <!-- id: 8 -->
+    - [x] Set up Logging (Logback) <!-- id: 9 -->
+    - [x] Set up Allure Reporting <!-- id: 10 -->
+    - [x] Set up TestRail Integration (API Client, Listener) <!-- id: 11 -->
+- [x] Page Objects Implementation <!-- id: 12 -->
+    - [x] Elements Page <!-- id: 13 -->
+    - [x] Forms Page <!-- id: 14 -->
+    - [x] Alerts, Frame & Windows Page <!-- id: 15 -->
+    - [x] Widgets Page <!-- id: 16 -->
+    - [x] Interactions Page <!-- id: 17 -->
+    - [x] Book Store Application Page <!-- id: 18 -->
+- [x] Test Scenarios Implementation <!-- id: 19 -->
+    - [x] Elements Tests <!-- id: 20 -->
+    - [x] Forms Tests <!-- id: 21 -->
+    - [x] Alerts/Frames Tests <!-- id: 22 -->
+    - [x] Widgets Tests <!-- id: 23 -->
+    - [x] Interactions Tests <!-- id: 24 -->
+    - [x] Book Store Tests <!-- id: 25 -->
+- [x] Advanced Features & CI/CD <!-- id: 26 -->
+    - [x] Implement Retry Mechanism <!-- id: 27 -->
+    - [x] Create README.md <!-- id: 28 -->
+    - [x] Create CI/CD configuration (e.g., GitHub Actions) <!-- id: 29 -->
+    - [x] Verify execution and reports <!-- id: 30 -->
