@@ -10,6 +10,7 @@ public class ElementsPage extends BasePage {
     }
 
     // Locators
+    private final String HometextBoxMenu = "//*[name()='path' and contains(@d,'M16 132h41')]";
     private final String textBoxMenu = "//li[@id='item-0']//span[text()='Text Box']";
     private final String checkMenu = "//li[@id='item-1']//span[text()='Check Box']";
     private final String fullNameInput = "#userName";
@@ -21,6 +22,7 @@ public class ElementsPage extends BasePage {
 
     // Actions
     public void navigateToTextBox() {
+        click(HometextBoxMenu);
         click(textBoxMenu);
     }
 

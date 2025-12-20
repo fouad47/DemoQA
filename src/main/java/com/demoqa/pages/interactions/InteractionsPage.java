@@ -9,11 +9,13 @@ public class InteractionsPage extends BasePage {
         super(page);
     }
 
+    private final String HomeSortableMenu = "//h5[normalize-space()='Interactions']";
     private final String sortableMenu = "//li[@id='item-0']//span[text()='Sortable']";
     private final String listTab = "#demo-tab-list";
     private final String gridTab = "#demo-tab-grid";
 
     public void navigateToSortable() {
+        click(HomeSortableMenu);
         click(sortableMenu);
     }
 

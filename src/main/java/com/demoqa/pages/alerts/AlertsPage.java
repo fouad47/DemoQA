@@ -9,12 +9,14 @@ public class AlertsPage extends BasePage {
         super(page);
     }
 
+    private final String homealertsMenu = "//div[3]//div[1]//div[2]//*[name()='svg']";
     private final String alertsMenu = "//li[@id='item-1']//span[text()='Alerts']";
     private final String alertButton = "#alertButton";
     private final String confirmButton = "#confirmButton";
     private final String promptButton = "#promtButton";
 
     public void navigateToAlerts() {
+        click(homealertsMenu);
         click(alertsMenu);
     }
 

@@ -9,11 +9,13 @@ public class WidgetsPage extends BasePage {
         super(page);
     }
 
+    private final String HomeaccordianMenu = "//h5[normalize-space()='Widgets']";
     private final String accordianMenu = "//li[@id='item-0']//span[text()='Accordian']";
     private final String section1Heading = "#section1Heading";
     private final String section1Content = "#section1Content";
 
     public void navigateToAccordian() {
+        click(HomeaccordianMenu);
         click(accordianMenu);
     }
 

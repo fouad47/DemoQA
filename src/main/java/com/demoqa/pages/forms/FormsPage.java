@@ -9,6 +9,7 @@ public class FormsPage extends BasePage {
         super(page);
     }
 
+    private final String HomepracticeFormMenu = "";
     private final String practiceFormMenu = "//li[@id='item-0']//span[text()='Practice Form']";
     private final String firstNameInput = "#firstName";
     private final String lastNameInput = "#lastName";
@@ -19,6 +20,7 @@ public class FormsPage extends BasePage {
     private final String modalTitle = "#example-modal-sizes-title-lg";
 
     public void navigateToPracticeForm() {
+        click(HomepracticeFormMenu);
         click(practiceFormMenu);
     }
 
