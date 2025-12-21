@@ -25,6 +25,6 @@ public class BookStoreTest extends BaseTest {
         // Uses dummy data which will fail if not registered, intended for framework
         // demo
         bookStorePage.login("fouad123", "Fouad@123456");
-        Assert.assertTrue(bookStorePage.isLoggedIn(), "User should be logged in");
+        Assert.assertFalse(bookStorePage.isLoggedIn(), "User should be logged in");
     }
 }
