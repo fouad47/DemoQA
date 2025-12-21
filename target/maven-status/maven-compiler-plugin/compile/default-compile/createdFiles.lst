@@ -1,0 +1,9 @@
+com\demoqa\pages\base\BasePage.class
+com\demoqa\config\ConfigManager.class
+com\demoqa\pages\forms\FormsPage.class
+com\demoqa\pages\interactions\InteractionsPage.class
+com\demoqa\pages\elements\ElementsPage.class
+com\demoqa\pages\bookstore\BookStorePage.class
+com\demoqa\pages\widgets\WidgetsPage.class
+com\demoqa\factory\PlaywrightFactory.class
+com\demoqa\pages\alerts\AlertsPage.class

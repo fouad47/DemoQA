@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="62.75" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Google_Experiements\DemoQA\target\test-classes;D:\Google_Experiements\DemoQA\target\classes;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\playwright\1.40.0\playwright-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\driver\1.40.0\driver-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\driver-bundle\1.40.0\driver-bundle-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\ch\qos\logback\logback-classic\1.2.13\logback-classic-1.2.13.jar;C:\Users\F47-Lenovo-E15\.m2\repository\ch\qos\logback\logback-core\1.2.13\logback-core-1.2.13.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\F47-Lenovo-E15\AppData\Local\Temp\surefire12188338049780863099\surefirebooter-20251221161459523_3.jar C:\Users\F47-Lenovo-E15\AppData\Local\Temp\surefire12188338049780863099 2025-12-21T16-14-59_388-jvmRun1 surefire-20251221161459523_1tmp surefire_0-20251221161459523_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Google_Experiements\DemoQA\target\test-classes;D:\Google_Experiements\DemoQA\target\classes;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\playwright\1.40.0\playwright-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\driver\1.40.0\driver-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\microsoft\playwright\driver-bundle\1.40.0\driver-bundle-1.40.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\F47-Lenovo-E15\.m2\repository\ch\qos\logback\logback-classic\1.2.13\logback-classic-1.2.13.jar;C:\Users\F47-Lenovo-E15\.m2\repository\ch\qos\logback\logback-core\1.2.13\logback-core-1.2.13.jar;C:\Users\F47-Lenovo-E15\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="allure.results.directory" value="D:\Google_Experiements\DemoQA\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\F47-Lenovo-E15"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Google_Experiements\DemoQA"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\F47-Lenovo-E15\AppData\Local\Temp\surefire12188338049780863099\surefirebooter-20251221161459523_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="F47-Lenovo-E15"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\F47-Lenovo-E15\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\F47-LE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="D:\Google_Experiements\DemoQA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Users\F47-Lenovo-E15\AppData\Local\Microsoft\WindowsApps;C:\Users\F47-Lenovo-E15\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\F47-Lenovo-E15\AppData\Local\GitHubDesktop\bin;C:\Users\F47-Lenovo-E15\AppData\Local\Programs\Antigravity\bin;C:\Users\F47-Lenovo-E15\AppData\Local\Programs\Ollama;C:\Users\F47-Lenovo-E15\AppData\Roaming\npm;C:\Users\F47-Lenovo-E15\go\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="verifyConfirmAlert" classname="com.demoqa.tests.alerts.AlertsTest" time="0.418">
+    <system-out><![CDATA[16:15:14.351 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyConfirmAlert
+16:15:14.428 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: //div[3]//div[1]//div[2]//*[name()='svg']
+16:15:14.604 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: //li[@id='item-1']//span[text()='Alerts']
+16:15:14.653 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: #confirmButton
+16:15:14.716 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Confirm message: Do you confirm action?
+]]></system-out>
+  </testcase>
+  <testcase name="verifySimpleAlert" classname="com.demoqa.tests.alerts.AlertsTest" time="0.258">
+    <system-out><![CDATA[16:15:14.779 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifyConfirmAlert
+16:15:15.620 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifyConfirmAlert.png
+16:15:15.728 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:23.049 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifySimpleAlert
+16:15:23.055 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: //div[3]//div[1]//div[2]//*[name()='svg']
+16:15:23.177 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: //li[@id='item-1']//span[text()='Alerts']
+16:15:23.238 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Clicking on element: #alertButton
+16:15:23.292 [main] INFO  com.demoqa.pages.alerts.AlertsPage - Dialog message: You clicked a button
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTitle" classname="com.demoqa.tests.base.SmokeTest" time="0.019">
+    <system-out><![CDATA[16:15:23.308 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifySimpleAlert
+16:15:23.595 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifySimpleAlert.png
+16:15:23.595 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:29.120 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyTitle
+Page Title: DEMOQA
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLogin" classname="com.demoqa.tests.bookstore.BookStoreTest" time="0.398">
+    <system-out><![CDATA[16:15:29.139 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifyTitle
+16:15:29.387 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifyTitle.png
+16:15:29.387 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:34.939 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyLogin
+16:15:34.943 [main] INFO  c.d.pages.bookstore.BookStorePage - Clicking on element: //h5[normalize-space()='Book Store Application']
+16:15:35.129 [main] INFO  c.d.pages.bookstore.BookStorePage - Clicking on element: //li[@id='item-0']//span[text()='Login']
+16:15:35.199 [main] INFO  c.d.pages.bookstore.BookStorePage - Typing 'fouad123' into element: //input[@id='userName']
+16:15:35.237 [main] INFO  c.d.pages.bookstore.BookStorePage - Typing 'Fouad@123456' into element: //input[@id='password']
+16:15:35.272 [main] INFO  c.d.pages.bookstore.BookStorePage - Clicking on element: #login
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTextBoxForm" classname="com.demoqa.tests.elements.ElementsTest" time="0.495">
+    <system-out><![CDATA[16:15:35.338 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifyLogin
+16:15:35.607 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifyLogin.png
+16:15:35.608 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:41.531 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyTextBoxForm
+16:15:41.535 [main] INFO  c.demoqa.pages.elements.ElementsPage - Clicking on element: //*[name()='path' and contains(@d,'M16 132h41')]
+16:15:41.691 [main] INFO  c.demoqa.pages.elements.ElementsPage - Clicking on element: //li[@id='item-0']//span[text()='Text Box']
+16:15:41.795 [main] INFO  c.demoqa.pages.elements.ElementsPage - Typing 'John Doe' into element: #userName
+16:15:41.826 [main] INFO  c.demoqa.pages.elements.ElementsPage - Typing 'john@example.com' into element: #userEmail
+16:15:41.852 [main] INFO  c.demoqa.pages.elements.ElementsPage - Typing '123 Street' into element: #currentAddress
+16:15:41.878 [main] INFO  c.demoqa.pages.elements.ElementsPage - Typing '456 Avenue' into element: #permanentAddress
+16:15:41.910 [main] INFO  c.demoqa.pages.elements.ElementsPage - Clicking on element: #submit
+16:15:42.016 [main] INFO  c.demoqa.pages.elements.ElementsPage - Getting text from element: #output
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFormRegistration" classname="com.demoqa.tests.forms.FormsTest" time="0.485">
+    <system-out><![CDATA[16:15:42.025 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifyTextBoxForm
+16:15:42.487 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifyTextBoxForm.png
+16:15:42.489 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:48.476 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyFormRegistration
+16:15:48.481 [main] INFO  com.demoqa.pages.forms.FormsPage - Clicking on element: //h5[normalize-space()='Forms']
+16:15:48.615 [main] INFO  com.demoqa.pages.forms.FormsPage - Clicking on element: //li[@id='item-0']//span[text()='Practice Form']
+16:15:48.680 [main] INFO  com.demoqa.pages.forms.FormsPage - Typing 'Jane' into element: //input[@id='firstName']
+16:15:48.704 [main] INFO  com.demoqa.pages.forms.FormsPage - Typing 'Doe' into element: //input[@id='lastName']
+16:15:48.724 [main] INFO  com.demoqa.pages.forms.FormsPage - Typing 'jane@example.com' into element: //input[@id='userEmail']
+16:15:48.737 [main] INFO  com.demoqa.pages.forms.FormsPage - Clicking on element: //label[contains(@for, 'gender-radio-1')]
+16:15:48.846 [main] INFO  com.demoqa.pages.forms.FormsPage - Typing '1234567890' into element: //input[@id='userNumber']
+16:15:48.870 [main] INFO  com.demoqa.pages.forms.FormsPage - Clicking on element: //button[@id='submit']
+16:15:48.953 [main] INFO  com.demoqa.pages.forms.FormsPage - Getting text from element: #example-modal-sizes-title-lg
+]]></system-out>
+  </testcase>
+  <testcase name="verifySortableGrid" classname="com.demoqa.tests.interactions.InteractionsTest" time="0.358">
+    <system-out><![CDATA[16:15:48.961 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifyFormRegistration
+16:15:49.448 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifyFormRegistration.png
+16:15:49.449 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:15:55.468 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifySortableGrid
+16:15:55.473 [main] INFO  c.d.p.interactions.InteractionsPage - Clicking on element: //h5[normalize-space()='Interactions']
+16:15:55.593 [main] INFO  c.d.p.interactions.InteractionsPage - Clicking on element: //li[@id='item-0']//span[text()='Sortable']
+16:15:55.669 [main] INFO  c.d.p.interactions.InteractionsPage - Clicking on element: #demo-tab-grid
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAccordian" classname="com.demoqa.tests.widgets.WidgetsTest" time="0.348">
+    <system-out><![CDATA[16:15:55.826 [main] INFO  com.demoqa.utils.TestListener - Test passed: verifySortableGrid
+16:15:56.162 [main] INFO  com.demoqa.utils.TestListener - Screenshot saved locally: D:\Google_Experiements\DemoQA\screenshots\verifySortableGrid.png
+16:15:56.163 [main] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+16:16:02.153 [main] INFO  com.demoqa.utils.TestListener - Starting test: verifyAccordian
+16:16:02.155 [main] INFO  com.demoqa.pages.widgets.WidgetsPage - Clicking on element: //h5[normalize-space()='Widgets']
+16:16:02.338 [main] INFO  com.demoqa.pages.widgets.WidgetsPage - Clicking on element: //li[@id='item-0']//span[text()='Accordian']
+16:16:02.372 [main] INFO  com.demoqa.pages.widgets.WidgetsPage - Clicking on element: #section1Heading
+16:16:02.451 [main] INFO  com.demoqa.pages.widgets.WidgetsPage - Clicking on element: #section1Heading
+]]></system-out>
+  </testcase>
+</testsuite>

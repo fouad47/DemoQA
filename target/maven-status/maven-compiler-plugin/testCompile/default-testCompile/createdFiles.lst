@@ -1,0 +1,12 @@
+com\demoqa\tests\bookstore\BookStoreTest.class
+com\demoqa\tests\interactions\InteractionsTest.class
+com\demoqa\tests\widgets\WidgetsTest.class
+com\demoqa\utils\RetryAnalyzer.class
+com\demoqa\tests\elements\ElementsTest.class
+com\demoqa\tests\base\SmokeTest.class
+com\demoqa\utils\TestRailManager.class
+com\demoqa\tests\forms\FormsTest.class
+com\demoqa\utils\AnnotationTransformer.class
+com\demoqa\tests\base\BaseTest.class
+com\demoqa\tests\alerts\AlertsTest.class
+com\demoqa\utils\TestListener.class

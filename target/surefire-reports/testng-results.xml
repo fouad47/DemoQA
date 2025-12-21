@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-21T16:15:02 PKT" name="Surefire suite" finished-at="2025-12-21T16:16:03 PKT" duration-ms="61051">
+    <groups>
+    </groups>
+    <test started-at="2025-12-21T16:15:02 PKT" name="Surefire test" finished-at="2025-12-21T16:16:03 PKT" duration-ms="61051">
+      <class name="com.demoqa.tests.forms.FormsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.forms.FormsTest@3727f0ee]" started-at="2025-12-21T16:15:42 PKT" name="setup" finished-at="2025-12-21T16:15:48 PKT" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.forms.FormsTest@3727f0ee]" started-at="2025-12-21T16:15:48 PKT" name="methodSetup" finished-at="2025-12-21T16:15:48 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifyFormRegistration()[pri:0, instance:com.demoqa.tests.forms.FormsTest@3727f0ee]" started-at="2025-12-21T16:15:48 PKT" name="verifyFormRegistration" description="Verify Practice Form Registration" finished-at="2025-12-21T16:15:48 PKT" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.forms.FormsTest@3727f0ee]" started-at="2025-12-21T16:15:49 PKT" name="tearDown" finished-at="2025-12-21T16:15:49 PKT" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.forms.FormsTest -->
+      <class name="com.demoqa.tests.bookstore.BookStoreTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.bookstore.BookStoreTest@6ec7bce0]" started-at="2025-12-21T16:15:29 PKT" name="setup" finished-at="2025-12-21T16:15:34 PKT" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.bookstore.BookStoreTest@6ec7bce0]" started-at="2025-12-21T16:15:34 PKT" name="methodSetup" finished-at="2025-12-21T16:15:34 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.demoqa.tests.bookstore.BookStoreTest@6ec7bce0]" started-at="2025-12-21T16:15:34 PKT" name="verifyLogin" finished-at="2025-12-21T16:15:35 PKT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.bookstore.BookStoreTest@6ec7bce0]" started-at="2025-12-21T16:15:35 PKT" name="tearDown" finished-at="2025-12-21T16:15:35 PKT" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.bookstore.BookStoreTest -->
+      <class name="com.demoqa.tests.widgets.WidgetsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.widgets.WidgetsTest@fb713e7]" started-at="2025-12-21T16:15:56 PKT" name="setup" finished-at="2025-12-21T16:16:02 PKT" duration-ms="5566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.widgets.WidgetsTest@fb713e7]" started-at="2025-12-21T16:16:02 PKT" name="methodSetup" finished-at="2025-12-21T16:16:02 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifyAccordian()[pri:0, instance:com.demoqa.tests.widgets.WidgetsTest@fb713e7]" started-at="2025-12-21T16:16:02 PKT" name="verifyAccordian" finished-at="2025-12-21T16:16:02 PKT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccordian -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.widgets.WidgetsTest@fb713e7]" started-at="2025-12-21T16:16:02 PKT" name="tearDown" finished-at="2025-12-21T16:16:03 PKT" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.widgets.WidgetsTest -->
+      <class name="com.demoqa.tests.interactions.InteractionsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.interactions.InteractionsTest@5c448433]" started-at="2025-12-21T16:15:49 PKT" name="setup" finished-at="2025-12-21T16:15:55 PKT" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.interactions.InteractionsTest@5c448433]" started-at="2025-12-21T16:15:55 PKT" name="methodSetup" finished-at="2025-12-21T16:15:55 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifySortableGrid()[pri:0, instance:com.demoqa.tests.interactions.InteractionsTest@5c448433]" started-at="2025-12-21T16:15:55 PKT" name="verifySortableGrid" finished-at="2025-12-21T16:15:55 PKT" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortableGrid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.interactions.InteractionsTest@5c448433]" started-at="2025-12-21T16:15:56 PKT" name="tearDown" finished-at="2025-12-21T16:15:56 PKT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.interactions.InteractionsTest -->
+      <class name="com.demoqa.tests.elements.ElementsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.elements.ElementsTest@2d272b0d]" started-at="2025-12-21T16:15:35 PKT" name="setup" finished-at="2025-12-21T16:15:41 PKT" duration-ms="5535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.elements.ElementsTest@2d272b0d]" started-at="2025-12-21T16:15:41 PKT" name="methodSetup" finished-at="2025-12-21T16:15:41 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifyTextBoxForm()[pri:0, instance:com.demoqa.tests.elements.ElementsTest@2d272b0d]" started-at="2025-12-21T16:15:41 PKT" name="verifyTextBoxForm" description="Verify Text Box Form Submission" finished-at="2025-12-21T16:15:42 PKT" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextBoxForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.elements.ElementsTest@2d272b0d]" started-at="2025-12-21T16:15:42 PKT" name="tearDown" finished-at="2025-12-21T16:15:42 PKT" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.elements.ElementsTest -->
+      <class name="com.demoqa.tests.base.SmokeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.base.SmokeTest@181e72d3]" started-at="2025-12-21T16:15:23 PKT" name="setup" finished-at="2025-12-21T16:15:29 PKT" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.demoqa.tests.base.SmokeTest@181e72d3]" started-at="2025-12-21T16:15:29 PKT" name="verifyTitle" finished-at="2025-12-21T16:15:29 PKT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.base.SmokeTest@181e72d3]" started-at="2025-12-21T16:15:29 PKT" name="tearDown" finished-at="2025-12-21T16:15:29 PKT" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.base.SmokeTest -->
+      <class name="com.demoqa.tests.alerts.AlertsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:02 PKT" name="setup" finished-at="2025-12-21T16:15:14 PKT" duration-ms="11917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:14 PKT" name="methodSetup" finished-at="2025-12-21T16:15:14 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifyConfirmAlert()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:14 PKT" name="verifyConfirmAlert" finished-at="2025-12-21T16:15:14 PKT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:15 PKT" name="tearDown" finished-at="2025-12-21T16:15:16 PKT" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:16 PKT" name="setup" finished-at="2025-12-21T16:15:23 PKT" duration-ms="6756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:23 PKT" name="methodSetup" finished-at="2025-12-21T16:15:23 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="verifySimpleAlert()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:23 PKT" name="verifySimpleAlert" finished-at="2025-12-21T16:15:23 PKT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySimpleAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoqa.tests.alerts.AlertsTest@49206065]" started-at="2025-12-21T16:15:23 PKT" name="tearDown" finished-at="2025-12-21T16:15:23 PKT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoqa.tests.alerts.AlertsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
