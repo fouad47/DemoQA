@@ -59,6 +59,9 @@ nbdist/
 test-results/
 playwright-report/
 
+# Screenshots
+screenshots/
+
 # Allure
 allure-results/
 allure-report/
