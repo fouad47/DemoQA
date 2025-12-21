@@ -63,8 +63,8 @@ playwright-report/
 screenshots/
 
 # Allure
-allure-results/
-allure-report/
+# allure-results/
+# allure-report/
 
 # TestNG
 test-output/

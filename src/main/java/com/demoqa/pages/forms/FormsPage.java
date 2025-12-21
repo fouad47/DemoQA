@@ -9,14 +9,14 @@ public class FormsPage extends BasePage {
         super(page);
     }
 
-    private final String HomepracticeFormMenu = "";
+    private final String HomepracticeFormMenu = "//h5[normalize-space()='Forms']";
     private final String practiceFormMenu = "//li[@id='item-0']//span[text()='Practice Form']";
-    private final String firstNameInput = "#firstName";
-    private final String lastNameInput = "#lastName";
-    private final String emailInput = "#userEmail";
+    private final String firstNameInput = "//input[@id='firstName']";
+    private final String lastNameInput = "//input[@id='lastName']";
+    private final String emailInput = "//input[@id='userEmail']";
     private final String genderMaleRadio = "//label[contains(@for, 'gender-radio-1')]";
-    private final String mobileInput = "#userNumber";
-    private final String submitButton = "#submit";
+    private final String mobileInput = "//input[@id='userNumber']";
+    private final String submitButton = "//button[@id='submit']";
     private final String modalTitle = "#example-modal-sizes-title-lg";
 
     public void navigateToPracticeForm() {
