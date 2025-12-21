@@ -22,7 +22,7 @@ jobs:
         cache: maven
 
     - name: Install Required Dependencies
-      run: sudo apt-get update && sudo apt-get install -y libasound2 libffi-dev libx264-dev
+      run: sudo apt-get update && sudo apt-get install -y libasound2t64 libffi-dev libx264-dev
 
     - name: Install Playwright Browsers
       run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
