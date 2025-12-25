@@ -37,7 +37,7 @@ Test Implementation:
 5. Include proper test documentation
 
 Integration Requirements:
-1. TestRail Integration:
+1. TestRail Integration (configurable):
    - Configure TestRail API connection
    - Map test cases to TestRail IDs
    - Automatically update test results

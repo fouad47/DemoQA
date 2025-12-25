@@ -2,8 +2,6 @@ package com.demoqa.factory;
 
 import com.demoqa.config.ConfigManager;
 import com.microsoft.playwright.*;
-import java.util.HashMap;
-import java.util.Map;
 
 public class PlaywrightFactory {
     private static ThreadLocal<Playwright> playwright = new ThreadLocal<>();

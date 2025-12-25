@@ -14,8 +14,11 @@ public class BookStorePage extends BasePage {
     private final String userNameInput = "//input[@id='userName']";
     private final String passwordInput = "//input[@id='password']";
     private final String loginButton = "#login";
-    private final String logoutButton = "//div[@class='text-right col-md-5 col-sm-12']//button[@id='submit']"; // Sometimes ID is submit for logout
-    private final String invalidLoginMessage = "#name";
+    private final String logoutButton = "//div[@class='text-right col-md-5 col-sm-12']//button[@id='submit']"; // Sometimes
+                                                                                                               // ID is
+                                                                                                               // submit
+                                                                                                               // for
+                                                                                                               // logout
 
     public void navigateToLogin() {
         click(homeloginMenu);
